@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+#top-right-items {
+    margin: auto;
+}
+
+#google-center-items {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
