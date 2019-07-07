@@ -1,20 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Google</title>
-        <meta charset="utf-8">
-        <link rel="icon" href="images/googleIcon.png">
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
-    <body>
-        <div id="top-right-items">
-            <h2>Gmail</h2>
-            <h2>Images</h2>
-            <img src="images/google_apps_black.png" height="25" width="25"></img>
-            <img src="images/google_user.png" height="25" width="25"></img>
-        </div>
-        <div id="google-center-items">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" height="auto" width="200"></img>
-        </div>
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<title>Google</title>
+		<link rel="title icon" href="images/googleIcon.png" type="image/png">
+		<link rel="stylesheet" href="stylesheet.css" type="text/css">
+	</head>
+	<body>
+
+		<div id="container">
+
+			<nav>
+				<div id="left-nav">
+					<a class="text-link" href="#about">About</a>
+					<a class="text-link" href="#store">Store</a>
+				</div>
+				<div id="right-nav">
+					<a class="text-link" href="#mail">Gmail</a>
+					<a class="text-link" href="#images">Images</a>
+					<a href="#apps" title="Google apps">
+						<span id="google-apps"></span></a>
+					<a class="button" href="#account">Sign in</a>
+				</div>
+            </nav>
+            
+			<main>
+
+				<div id="google-logo">
+					<img src="images/google_logo.png" alt="Google">
+                </div>
+                
+				<div id="search-area">
+					<form action="#search" method="POST">
+
+						<div id="search-bar">
+							<input id="main-search"  type="text" id="searchbar" name="search" maxlength="2048">
+							<img id="voice-search" src="./images/google_voice_icon.png" alt="Voice Search"> 
+                        </div>	
+                        
+						<div id="search-buttons">
+							<input class="button" type="submit" value="Google Search">
+							<input class="button" type="submit" value="I'm Feeling Lucky">
+                        </div>
+                        
+					</form>
+				</div>
+            </main>
+            
+			<footer>
+				<div id="left-foot">
+					<a class="text-link" href="#advertising">Advertising</a>
+					<a class="text-link" href="#business">Business</a>
+					<a class="text-link" href="#help">How Search works</a>
+				</div>
+				<div id="right-foot">
+					<a class="text-link" href="#privacy">Privacy</a>
+					<a class="text-link" href="#terms">Terms</a>
+					<a class="text-link" href="#settings">Settings</a>
+				</div>
+            </footer>
+            
+		</div>
+	</body>
 </html>
